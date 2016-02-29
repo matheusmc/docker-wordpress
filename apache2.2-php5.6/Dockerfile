@@ -22,7 +22,5 @@ VOLUME /var/www/html
 
 COPY apache2-foreground /usr/local/bin/
 
-#teste
-
 #ENTRYPOINT ["/entrypoint.sh"]
 CMD ["apache2-foreground"]
