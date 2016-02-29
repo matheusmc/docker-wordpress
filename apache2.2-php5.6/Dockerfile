@@ -30,7 +30,7 @@ VOLUME /var/www/html
 #	&& rm wordpress.tar.gz \
 #	&& chown -R www-data:www-data /usr/src/wordpress
 
-COPY docker-entrypoint.sh /entrypoint.sh
+#COPY docker-entrypoint.sh /entrypoint.sh
 
 #ENTRYPOINT ["/entrypoint.sh"]
 CMD ["apache2-foreground"]
